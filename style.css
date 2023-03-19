@@ -1,0 +1,45 @@
+body{
+    font-family: 'Inter', sans-serif;    
+    margin: 5%;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+main{
+    margin: 25% 5%;
+}
+
+.codigo-container{
+    background-color: #fff;
+    padding: 4.9%;
+    border-radius: 10px;
+}
+
+p{
+    color: hsl(220, 15%, 55%);
+}
+
+.codigo{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilos para PC */
+
+@media only screen and (min-width: 1024px) {
+
+
+    main{
+        margin: 0;
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .codigo-container{
+        max-width: 270px;
+        padding: 1.5%;
+        
+    }
+}
